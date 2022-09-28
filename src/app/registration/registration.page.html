@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-item>
+  <ion-label floating>Contact Information </ion-label>
+</ion-item>
+
+<ion-content>
+  <form>
+    <ion-item lines="full">
+      <ion-label position="floating">Name</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <form action="#">
+      <label for="sex"> Sex  </label>
+      <select name="sex" id="sex">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+      </select>
+    </form>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Phone Number</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Confirm Password</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label floating>Address Information </ion-label>
+      <ion-label position="floating">Barangay</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Municipality</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Region</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Zip Code</ion-label>
+      <ion-input type="password" required></ion-input>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="dark" expand="block">Register</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>
